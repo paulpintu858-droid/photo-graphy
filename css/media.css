@@ -1,0 +1,527 @@
+@media(max-width:1420px) {
+
+}
+
+@media(max-width:1366px) {
+    
+}
+
+@media(max-width:1280px) {
+    
+}
+
+@media(max-width:1024px) {
+    
+}
+
+@media(max-width:991px) {
+
+
+.main_header {
+    opacity: 0;
+}
+
+.banner {
+    margin-bottom: 50px;
+    height: 296px;
+}
+
+.banner .image_div .container {
+    top: 48%;
+    left: 55%;
+}
+
+.banner .image_div h1 {
+    font-size: 37px;
+    max-width: 325px;
+    line-height: 60px;
+}
+
+.banner .image_div p {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 350px;
+    padding: 5px 0 20px 0;
+}
+
+.banner .image_div .blend-button {
+    font-size: 10px;
+    padding: 13px 15px;
+}
+
+
+
+
+.photogrophy {
+    padding: 0 40px 70px ;
+}
+
+.photogrophy .photogrophy_div, .photogrophy .photogrophy_div .image_div {
+    flex-wrap: wrap;
+}
+
+.photogrophy .photogrophy_div .text {
+    text-align: center;
+}
+
+.photogrophy .photogrophy_div .text h2 {
+    font-size: 25px;
+    max-width: 240px;
+    margin: auto;
+}
+
+.photogrophy .photogrophy_div .text p {
+    line-height: 32px;
+    margin: auto;
+    max-width: unset;
+    font-size: 19px;
+    padding: 20px 0;
+}
+
+.photogrophy .photogrophy_div .text a {
+    font-size: 16px;
+}
+
+.photogrophy .photogrophy_div .text, .photogrophy .photogrophy_div .image_div {
+    width: 100%;
+}
+
+.photogrophy .photogrophy_div .image_div .left_image {
+    margin-top: 5%;
+    height: 610px;
+}
+
+.photogrophy .photogrophy_div .image_div .right_image {
+    margin-top: 20%;
+    height: 610px;
+}
+
+.photogrophy .photogrophy_div .image_div .left_image .sub_image {
+    width: 295px;
+    height: 200px;
+    left: 16%;
+    bottom: -2%;
+}
+
+
+
+.categoury {
+    padding: 0 40px 60px ;
+}
+
+.heading h2 {
+    font-size: 25px;
+}
+
+.heading p {
+    font-size: 15px;
+}
+
+.categoury .categroury_manu {
+    padding-bottom: 45px;
+}
+
+.categoury .categroury_manu .nav ul li a {
+    font-size: 20px;
+}
+
+.categoury .our-service .image_box .image {
+    width: 100%;
+    height: 100%;
+}
+
+.categoury .our-service .image_box .text h3 {
+    font-size: 22px;
+}
+
+
+
+.pre_Wedding {
+    padding: 0 40px 170px;
+}
+
+.pre_Wedding .pre_wedding .image_left {
+    height: 470px;
+}
+
+.pre_Wedding .pre_wedding .image_center {
+    height: 540px;
+}
+
+.pre_Wedding .pre_wedding .image_right {
+    height: 340px;
+}
+
+.pre_Wedding .pre_wedding .image_right .sub_image {
+    width: 208px;
+    height: 236px;
+    bottom: -43%;
+    left: -65%;
+}
+
+.pre_Wedding .pre_wedding .image_center .text {
+    padding: 25px 20px;
+    bottom: 15%;
+    left: -76%;
+    width: 100%;
+    background: #2c2c2ced;
+}
+
+.pre_Wedding .pre_wedding .image_center .text h3 {
+    font-size: 20px;
+}
+
+.pre_Wedding .pre_wedding .image_center .text p {
+    font-size: 13px;
+    padding: 15px 0;
+    line-height: 20px;
+}
+
+.pre_Wedding .pre_wedding .image_center .text a {
+    font-size: 14px;
+}
+
+
+
+.cube {
+    padding: 0 40px 60px;
+}
+
+.cube .cube_box .text {
+    padding:30px;
+}
+
+.cube .cube_box .text h3 {
+    font-size: 28px;
+}
+
+.cube .cube_box .text p {
+    font-size: 17px;
+    line-height: 26px;
+    padding: 25px 0 22px;
+}
+
+.cube .cube_box .text a {
+    font-size: 17px;
+}
+
+
+
+.testimonial {
+    padding: 0 40px 70px;
+}
+
+.image-container {
+    height: 18rem;
+    perspective: 1000px;
+}
+
+.arrow-buttons {
+    padding-top: 2rem;
+}
+
+.quote {
+    font-size: 1rem;
+}
+
+
+
+.gallery {
+    padding: 0 40px 70px;
+}
+
+.gallery .gallery_div .left_box .image_up {
+    height: 160px;
+}
+
+.gallery .gallery_div .left_box .image_down {
+    height: 475px;
+}
+
+.gallery .gallery_div .right_box .image_div .image_left,.gallery .gallery_div .right_box .image_div .image_right {
+    height: 375px;
+}
+
+.gallery .gallery_div .right_box .down {
+    height: 260px;
+}
+
+
+
+footer .main_footer {
+    padding: 60px 40px 20px;
+}
+
+footer .main_footer .company_about .logo {
+    width: 105px;
+}
+
+footer .main_footer .company_about .about p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer .main_footer .company_about .about ul li,footer .main_footer .footer_manu .services_link ul li {
+    padding-bottom: 10px;
+}
+
+footer .main_footer .company_about .about ul li img {
+    width: 13px;
+    height: 13px;
+}
+
+footer .main_footer .footer_manu .services_link {
+    padding-top: 30px;
+}
+
+footer .main_footer .footer_manu .services_link h2 {
+    font-size: 23px;
+}
+
+footer .main_footer .footer_manu .services_link ul li a {
+    font-size: 18px;
+}
+
+footer .main_footer .footer_manu .services_link p {
+    font-size: 12px;
+}
+
+}
+
+@media(max-width:767px) {
+
+/* .header-start */
+
+    .main_header {
+    opacity: 0;
+}
+
+/* .header-end */
+
+/* .banner-start */
+
+    .banner {
+    position: relative;
+    margin-bottom: 20px;
+    height: 170px;
+}
+
+.banner .image_div .container {
+    top: 41%;
+    left: 56%;
+}
+
+.banner .image_div h1 {
+    font-size: 20px;
+    max-width: 180px;
+    line-height: 27px;
+}
+
+.banner .image_div p {
+    font-size: 9px;
+    line-height: 12px;
+    max-width: 200px;
+    padding: 5px 0 5px 0;
+}
+
+.banner .image_div .blend-button {
+    font-size: 8px;
+    padding:0;
+    border:none;
+}
+
+/* .banner-end */
+
+/* .photogrophy-start */
+
+.photogrophy {
+    padding: 0 20px 40px;
+}
+
+.photogrophy .photogrophy_div .text p {
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.photogrophy .photogrophy_div .text, .photogrophy .photogrophy_div .image_div {
+    flex-wrap: wrap;
+}
+
+.photogrophy .photogrophy_div .image_div .left_image,.photogrophy .photogrophy_div .image_div .right_image {
+    width: 100%;
+}
+
+.photogrophy .photogrophy_div .image_div .right_image {
+    margin-top: 30%;
+}
+
+.photogrophy .photogrophy_div .image_div .left_image .sub_image {
+    width: 255px;
+    height: 175px;
+    left: 18%;
+    top: 40%;
+}
+
+/* .photogrophy-end */
+
+/* .categoury-start */
+
+.categoury {
+    padding: 0 20px 40px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.categoury .categroury_manu .nav ul {
+    justify-content: center;
+}
+
+.categoury .categroury_manu .nav ul li a {
+    font-size: 16px;
+}
+
+.categoury .categroury_manu .nav ul li span {
+    padding-left: 10px;
+}
+
+/* .categoury-end */
+
+/* .pre-wedding-start */
+
+.pre_Wedding {
+    padding: 0 20px 130px;
+}
+
+.pre_Wedding .pre_wedding {
+    flex-wrap: wrap;
+}
+
+.pre_Wedding .pre_wedding .image_left,.pre_Wedding .pre_wedding .image_center {
+    width: 100%;
+    height: 500px;
+}
+
+.pre_Wedding .pre_wedding .image_right {
+    width: 100%;
+    margin-top: 10%;
+    height: 390px;
+}
+
+.pre_Wedding .pre_wedding .image_center .text {
+    bottom: 90%;
+    left: 0%;
+}
+
+.pre_Wedding .pre_wedding .image_right .sub_image {
+    width: 200px;
+    height: 210px;
+    bottom: -20%;
+    left: 33%;
+}
+
+/* .pre-wedding-end */
+
+/* .cube-start */
+
+.cube {
+    padding: 0 20px 40px;
+}
+
+.cube .cube_box {
+    flex-wrap: wrap;
+}
+
+.cube .cube_box .cube_image {
+    width: 100%;
+}
+
+.cube .cube_box .text {
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.cube .cube_box .text p {
+    font-size: 17px;
+    padding: 15px 0 15px;
+}
+
+/* .cube-end */
+
+/* .testimonial-start */
+
+.testimonial {
+    padding: 0 20px 40px;
+}
+
+.testimonial-grid {
+    gap: 3rem;
+}
+
+/* .testimonial-end */
+
+/* .gallery-start */
+
+.gallery {
+    padding: 0 20px 40px;
+}
+
+.gallery .gallery_div,.gallery .gallery_div .right_box .image_div  {
+    flex-wrap: wrap;
+}
+
+.gallery .gallery_div .left_box {
+    width: 100%;
+}
+
+.gallery .gallery_div .left_box .image_up {
+    height: 210px;
+}
+
+.gallery .gallery_div .left_box .image_down {
+    height: 420px;
+}
+
+.gallery .gallery_div .right_box {
+    width: 100%;
+}
+
+.gallery .gallery_div .right_box .image_div .image_left, .gallery .gallery_div .right_box .image_div .image_right {
+    height: 260px;
+}
+
+.gallery .gallery_div .right_box .down {
+    height: 170px;
+}
+
+/* .gallery-end */
+
+/* .footer-start */
+
+footer .main_footer {
+    padding: 30px 20px 20px;
+    flex-wrap: wrap;
+}
+
+footer .main_footer .company_about .logo {
+    margin: auto;
+}
+
+footer .main_footer .company_about {
+    width: 100%;
+    text-align: center;
+}
+
+footer .main_footer .company_about .about ul li {
+    flex-direction: column;
+}
+
+footer .sub_footer p {
+    font-size: 12px;
+}
+
+ /* .footer-end  */
+
+}

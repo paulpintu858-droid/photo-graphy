@@ -10,8 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 
@@ -27,59 +28,71 @@
                 <div class="logo">
                     <img src="images/logo.png" alt="logo">
                 </div>
-                <nav class="manu_bar">
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">About Us</a>
-                            <ul>
-                                <li>
-                                    <a href="#">A</a>
-                                </li>
-                                <li>
-                                    <a href="#">AB</a>
-                                </li>
-                                <li>
-                                    <a href="#">ABC</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">pintu</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">pintu</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="#">pintu</a>
-                                                </li>   
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">pintu</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">ABCD</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">project</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">Help</a>
-                        </li>
-                    </ul>
-                </nav>
-                <button>Book Now</button>
+                <div class="manu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">A</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">AB</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">ABC</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#">pintu</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">pintu</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">pintu</a>
+                                                    </li>   
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">pintu</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">ABCD</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">project</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Help</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header_clo_button">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <a class="book" href="#">Book Now</a>
+                <div class="toggle_button">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"/></svg>
+                    </button>
+                </div>
             </div> 
         </div>      
     </header>
@@ -87,18 +100,18 @@
     <section class="banner">
         <div class="image_div">
                 <div class="container">
-                    <h1>Digital <span>Photo Graphy</span> Studio </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                    <h1 data-aos="fade-up" data-aos-duration="2000">Digital <span>Photo Graphy</span> Studio </h1>
+                    <p data-aos="fade-up" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                     <a href="#" class="blend-button">
                         <span class="back"><span></span></span>
                         <span class="label">Explore Our Weark</span>
                     </a>
                 </div>
             <div class="box_image">
-                <div class="box_img">
+                <div class="box_img" data-aos="fade-left" data-aos-duration="3000">
                     <img src="images/b-1.png" alt="images">
                 </div>
-                <div class="box_img">
+                <div class="box_img" data-aos="fade-right" data-aos-duration="3000">
                     <img src="images/b-2.png" alt="images">
                 </div>
             </div>    
@@ -128,7 +141,7 @@
         </div>
     </section>
 
-    <section class="categoury">
+    <section class="categoury" data-aos="fade-up" data-aos-duration="2000">
         <div class="container">
             <div class="heading">
                 <h2>OUR SURVICES CATEGOURY</h2>
@@ -195,20 +208,20 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
             </div>
             <div class="pre_wedding">
-                <div class="image_left">
+                <div class="image_left" data-aos="fade-left" data-aos-duration="3000">
                     <img src="images/pw-1.png" alt="image">
                 </div>
-                <div class="image_center">
+                <div class="image_center" data-aos="fade-right" data-aos-duration="3000">
                     <img src="images/pw-2.png" alt="image">
-                    <div class="text">
+                    <div class="text" data-aos="fade-up" data-aos-duration="3000">
                         <h3>Pre - Wedding Shoot</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                         <a href="#">Book Now</a>
                     </div>
                 </div>
-                <div class="image_right">
+                <div class="image_right" data-aos="fade-right" data-aos-duration="3000">
                     <img src="images/pw-3.png" alt="image">
-                    <div class="sub_image">
+                    <div class="sub_image" data-aos="fade-up" data-aos-duration="3000">
                         <img src="images/pw-4.png" alt="image">
                     </div>
                 </div>
@@ -219,20 +232,20 @@
     <section class="cube">
         <div class="container">
             <div class="cube_box">
-                <div class="cube_image">
+                <div class="cube_image" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="images/c-1.png" alt="image">
                 </div>
-                <div class="text">
+                <div class="text" data-aos="fade-up" data-aos-duration="3000">
                     <h3>FAMILY PHOTOGRAPHY</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas</p>
                     <a href="#">Book Now</a>
                 </div>
             </div>
             <div class="cube_box">
-                <div class="cube_image">
+                <div class="cube_image" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="images/c-2.png" alt="image">
                 </div>
-                <div class="text">
+                <div class="text" data-aos="fade-up" data-aos-duration="3000">
                     <h3>FAMILY PHOTOGRAPHY</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas</p>
                     <a href="#">Book Now</a>
@@ -314,11 +327,11 @@
                         <ul>
                             <li>
                                 <img src="images/i-1.png" alt="icon">
-                                <a href="#">(858) 982853636</a>
+                                <a href="#">(+91)9875497688</a>
                             </li>
                             <li>
                                 <img src="images/i-1.png" alt="icon">
-                                <a href="#">a251Lactown, india</a>
+                                <a href="#">kolkata West bengail india</a>
                             </li>
                             <li>
                                 <img src="images/i-1.png" alt="icon">
@@ -426,11 +439,16 @@
 <!-- vvip  -->
 
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/custome.js"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
-
-
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
 
 
 
